@@ -1,0 +1,26 @@
+
+# Core dependencies for process_page_scans.py
+pandas>=1.3.0
+shapely>=1.8.0
+tqdm>=4.60.0
+pycore>=0.9.0
+
+# ML Pipeline dependencies
+scikit-learn>=1.0.0
+joblib>=1.1.0
+psutil>=5.8.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+numpy>=1.21.0
+
+# Optional dependencies for better XML parsing performance
+# Uncomment if you want to use lxml instead of the built-in xml parser
+lxml>=4.6.0
+
+# Development dependencies (optional)
+# Uncomment if you want to include development tools
+# pytest>=7.0.0,<8.0.0
+# black>=22.0.0,<24.0.0
+# flake8>=4.0.0,<7.0.0
+# mypy>=0.950,<2.0.0
+# types-tqdm>=4.64.0,<5.0.0
